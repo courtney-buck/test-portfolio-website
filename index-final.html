@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Courtney Buck - Freelance Web Developer | Custom Websites & Frontend Development</title>
+    <meta name="description" content="Professional freelance web developer specializing in custom website design, responsive frontend development, and website maintenance. Creating beautiful, fast-loading websites that help businesses grow online.">
+    <meta name="keywords" content="freelance web developer, custom website design, frontend development, responsive websites, web design, JavaScript, React, CSS, HTML, website maintenance">
+    <meta name="author" content="Courtney Buck">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://courtneybuck.dev">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://courtneybuck.dev">
+    <meta property="og:title" content="Courtney Buck - Freelance Web Developer | Custom Websites & Frontend Development">
+    <meta property="og:description" content="Professional freelance web developer specializing in custom website design, responsive frontend development, and website maintenance. Creating beautiful, fast-loading websites that help businesses grow online.">
+    <meta property="og:image" content="https://courtneybuck.dev/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Courtney Buck - Web Developer">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://courtneybuck.dev">
+    <meta name="twitter:title" content="Courtney Buck - Freelance Web Developer | Custom Websites & Frontend Development">
+    <meta name="twitter:description" content="Professional freelance web developer specializing in custom website design, responsive frontend development, and website maintenance. Creating beautiful, fast-loading websites that help businesses grow online.">
+    <meta name="twitter:image" content="https://courtneybuck.dev/og-image.jpg">
+    <meta name="twitter:creator" content="@courtneybuck">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#0ea5e9">
+    <meta name="msapplication-TileColor" content="#0ea5e9">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Courtney Buck">
+    
+    <!-- Custom Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='15' fill='%230ea5e9'/><text x='50' y='65' font-family='system-ui' font-size='60' font-weight='700' text-anchor='middle' fill='white'>C</text></svg>">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80">
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Courtney Buck",
+        "jobTitle": "Freelance Web Developer",
+        "description": "Professional freelance web developer specializing in custom website design, responsive frontend development, and website maintenance.",
+        "url": "https://courtneybuck.dev",
+        "sameAs": [
+            "https://twitter.com/courtneybuck",
+            "https://linkedin.com/in/courtneybuck",
+            "https://github.com/courtneybuck"
+        ],
+        "knowsAbout": [
+            "Web Development",
+            "Frontend Development", 
+            "JavaScript",
+            "React",
+            "CSS",
+            "HTML",
+            "Responsive Design",
+            "Website Maintenance"
+        ],
+        "offers": {
+            "@type": "Service",
+            "serviceType": "Web Development Services",
+            "provider": {
+                "@type": "Person",
+                "name": "Courtney Buck"
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Web Development Services",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Custom Web Design",
+                            "description": "Beautiful, responsive websites tailored to your brand and business needs."
+                        }
+                    },
+                    {
+                        "@type": "Offer", 
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Frontend Development",
+                            "description": "Modern, fast-loading websites built with the latest technologies."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service", 
+                            "name": "Website Maintenance",
+                            "description": "Regular updates, security monitoring, and performance optimization."
+                        }
+                    }
+                ]
+            }
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "(555) 123-4567",
+            "email": "courtney@example.com",
+            "contactType": "customer service",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Available Worldwide",
+            "addressCountry": "US"
+        }
+    }
+    </script>
+    
+    <!-- Critical CSS - Only essential above-the-fold styles -->
+    <style>
+        /* Critical loading and basic reset */
+        *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter',system-ui,-apple-system,sans-serif;line-height:1.6;color:#111827;background:#fff;font-size:1rem}
+        
+        /* Loading overlay - Critical for UX */
+        .loading-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,#0284c7 0%,#0369a1 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;opacity:1;visibility:visible;transition:opacity .8s cubic-bezier(.4,0,.2,1),visibility .8s cubic-bezier(.4,0,.2,1)}.loading-overlay.hidden{opacity:0;visibility:hidden}.loading-spinner{width:60px;height:60px;border:4px solid rgba(255,255,255,.15);border-top:4px solid rgba(255,255,255,.8);border-right:4px solid rgba(255,255,255,.4);border-radius:50%;animation:spin 1.2s cubic-bezier(.68,-.55,.265,1.55) infinite;box-shadow:0 0 20px rgba(255,255,255,.1)}.loading-text{color:rgba(255,255,255,.9);font-size:1.125rem;font-weight:600;margin-top:1.5rem;letter-spacing:.5px;animation:pulse 2s ease-in-out infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+        
+        /* Critical nav and hero for immediate render */
+        .container{max-width:1200px;margin:0 auto;padding:0 1rem}nav{background:rgba(255,255,255,.95);backdrop-filter:blur(20px);padding:1rem 0;box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);position:fixed;width:100%;top:0;z-index:1000;border-bottom:1px solid #e5e7eb;transition:all 300ms ease-in-out}nav .container{display:flex;justify-content:space-between;align-items:center}.logo{font-size:1.25rem;font-weight:800;color:#0284c7;letter-spacing:-.025em;transition:all 300ms ease-in-out}.menu-toggle{display:none;flex-direction:column;cursor:pointer;padding:.5rem;border:none;background:none;gap:4px}.menu-toggle span{width:25px;height:3px;background:#0284c7;transition:all 300ms ease-in-out;border-radius:2px}.nav-links{display:flex;list-style:none;gap:2rem;transition:all 300ms ease-in-out}.nav-links a{text-decoration:none;color:#4b5563;font-weight:500;font-size:.875rem;transition:all 300ms ease-in-out;padding:.5rem .75rem;border-radius:.5rem;position:relative;overflow:hidden}.hero{background:linear-gradient(135deg,rgba(6,78,149,.85) 0%,rgba(3,105,161,.85) 50%,rgba(7,89,133,.85) 100%),url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');background-size:cover;background-position:center;background-attachment:fixed;color:white;padding:calc(6rem + 2rem) 0 6rem;text-align:center;position:relative;overflow:hidden}.hero .container{position:relative;z-index:1}.hero h1{margin-bottom:1.5rem;font-weight:900;background:linear-gradient(180deg,rgba(255,255,255,1) 0%,rgba(255,255,255,.9) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-size:2.25rem}.hero .tagline{font-size:1.125rem;margin-bottom:2rem;color:rgba(255,255,255,.95);font-weight:400;max-width:600px;margin-left:auto;margin-right:auto;text-shadow:0 2px 4px rgba(0,0,0,.3)}@media (min-width:768px){.hero h1{font-size:3.75rem}.hero .tagline{font-size:1.25rem}}@media (max-width:767px){.menu-toggle{display:flex}.nav-links{position:absolute;top:100%;left:0;right:0;background:rgba(255,255,255,.98);backdrop-filter:blur(15px);flex-direction:column;gap:0;box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 10px 10px -5px rgba(0,0,0,.04);border-bottom:1px solid #e5e7eb;max-height:0;overflow:hidden;transition:max-height 300ms ease-in-out}.nav-links.active{max-height:300px}.hero{background-attachment:scroll;background-image:linear-gradient(135deg,rgba(6,78,149,.85) 0%,rgba(3,105,161,.85) 50%,rgba(7,89,133,.85) 100%),url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=70')}}
+    </style>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading Experience...</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Courtney Buck</div>
+            <button class="menu-toggle" id="menu-toggle" 
+                    aria-label="Toggle navigation menu" 
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Courtney Buck</h1>
+            <p class="tagline">Freelance Web Developer | Creating Beautiful, Functional Websites</p>
+            <a href="#contact" class="cta-button">Let's Work Together</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <p class="fade-in stagger-delay-1">Hi, I'm Courtney! I'm a passionate freelance web developer with a love for creating stunning, user-friendly websites that help businesses grow and succeed online.</p>
+                <p class="fade-in stagger-delay-2">With expertise in modern web technologies and a keen eye for design, I specialize in building responsive, fast-loading websites that provide exceptional user experiences across all devices.</p>
+                <p class="fade-in stagger-delay-3">I believe in clean code, clear communication, and delivering projects that exceed expectations. Let's bring your vision to life!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title fade-in">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-left stagger-delay-1">
+                    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                         alt="Custom Web Design" 
+                         class="service-icon" 
+                         loading="lazy">
+                    <h3>Custom Web Design</h3>
+                    <p>Beautiful, responsive websites tailored to your brand and business needs. From concept to launch, I'll create a unique online presence that stands out.</p>
+                </div>
+                <div class="service-card fade-in stagger-delay-2">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                         alt="Frontend Development" 
+                         class="service-icon" 
+                         loading="lazy">
+                    <h3>Frontend Development</h3>
+                    <p>Modern, fast-loading websites built with the latest technologies. I specialize in React, JavaScript, and CSS to create smooth, interactive user experiences.</p>
+                </div>
+                <div class="service-card fade-in-right stagger-delay-3">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" 
+                         alt="Website Maintenance" 
+                         class="service-icon" 
+                         loading="lazy">
+                    <h3>Website Maintenance</h3>
+                    <p>Keep your website running smoothly with regular updates, security monitoring, and performance optimization. Ongoing support to ensure your site stays current.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="fade-in stagger-delay-1">Ready to start your project? I'd love to hear about your ideas and help bring them to life.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item fade-in-left stagger-delay-1">
+                        <h4>Email</h4>
+                        <p>courtney@example.com</p>
+                    </div>
+                    <div class="contact-item fade-in stagger-delay-2">
+                        <h4>Phone</h4>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="contact-item fade-in-right stagger-delay-3">
+                        <h4>Location</h4>
+                        <p>Available Worldwide</p>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in stagger-delay-2" action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Project Type</label>
+                        <input type="text" id="subject" name="subject" placeholder="Website Design, Development, etc.">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell me about your project</label>
+                        <textarea id="message" name="message" placeholder="I'm looking for a website that..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optimized JavaScript -->
+    <script>
+        // Performance optimized loading
+        let loadingComplete = false;
+
+        // Loading Animation
+        window.addEventListener('load', () => {
+            loadingComplete = true;
+            setTimeout(() => document.getElementById('loading-overlay').classList.add('hidden'), 800);
+            initializeAnimations();
+        });
+
+        // Fallback timeout
+        setTimeout(() => {
+            if (!loadingComplete) {
+                document.getElementById('loading-overlay').classList.add('hidden');
+                initializeAnimations();
+            }
+        }, 5000);
+
+        // Initialize Animations
+        const initializeAnimations = () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) entry.target.classList.add('visible');
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+            document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => observer.observe(el));
+        };
+
+        // Mobile Menu & Navigation
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const navbar = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', () => {
+            const isActive = menuToggle.classList.toggle('active');
+            menuToggle.setAttribute('aria-expanded', isActive);
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu on link click
+        navLinks.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                menuToggle.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Optimized Scroll Effects
+        let scrollTimeout;
+        window.addEventListener('scroll', () => {
+            if (scrollTimeout) clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                const scrollTop = window.pageYOffset;
+                navbar.classList.toggle('scrolled', scrollTop > 50);
+                
+                // Active nav highlighting
+                const sections = document.querySelectorAll('section[id]');
+                const navLinksAll = document.querySelectorAll('.nav-links a');
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + section.clientHeight) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinksAll.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            }, 16);
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Optimized Image Loading
+        const initializeImageLoading = () => {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.style.opacity = '0';
+                img.style.transition = 'opacity 0.5s ease-in-out';
+                
+                if (img.complete && img.naturalHeight !== 0) {
+                    img.style.opacity = '1';
+                    return;
+                }
+                
+                img.addEventListener('load', function() {
+                    this.style.opacity = '1';
+                    this.classList.add('loaded');
+                });
+                
+                img.addEventListener('error', function() {
+                    this.style.opacity = '1';
+                    console.warn('Failed to load image:', this.src);
+                });
+            });
+        };
+
+        // Close mobile menu on resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 767) {
+                menuToggle.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Initialize active link
+        document.addEventListener('DOMContentLoaded', () => {
+            const homeLink = document.querySelector('a[href="#home"]');
+            if (homeLink) homeLink.classList.add('active');
+            setTimeout(initializeImageLoading, 100);
+        });
+    </script>
+</body>
+</html>
