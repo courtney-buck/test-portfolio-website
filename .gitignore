@@ -1,0 +1,250 @@
+# =================================================================
+# Courtney Buck Portfolio Website - Git Ignore Configuration
+# =================================================================
+
+# =====================================
+# Operating System Files
+# =====================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Windows
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================
+# Development Tools & IDEs
+# =====================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm/IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# =====================================
+# Node.js & Package Managers
+# =====================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# =====================================
+# Build & Distribution
+# =====================================
+
+# Build directories
+build/
+dist/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+
+# Compiled assets
+*.min.css
+*.min.js
+*.bundle.js
+*.bundle.css
+
+# Sass cache
+.sass-cache/
+*.css.map
+*.scss.map
+
+# =====================================
+# Logs & Debugging
+# =====================================
+
+# Log files
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =====================================
+# Temporary & Cache Files
+# =====================================
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# =====================================
+# Environment & Configuration
+# =====================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files (exclude if they contain sensitive data)
+config.json
+secrets.json
+
+# =====================================
+# Testing & Coverage
+# =====================================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+.coverage/
+
+# Jest
+__tests__/
+*.spec.js
+*.test.js
+
+# =====================================
+# Deployment & Hosting
+# =====================================
+
+# Netlify
+.netlify/
+.netlify.toml
+
+# Vercel
+.vercel/
+
+# Firebase
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.firebase/
+
+# GitHub Pages
+_site/
+
+# =====================================
+# Backup & Archive Files
+# =====================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# =====================================
+# Project Specific
+# =====================================
+
+# Optimization test files (keep originals for comparison)
+# index-test.html
+# test-*.html
+
+# Development notes (if you want to keep them private)
+NOTES.md
+TODO.txt
+development-notes/
+
+# Large asset sources (keep optimized versions only)
+assets/raw/
+assets/unoptimized/
+
+# Performance testing results
+lighthouse-reports/
+performance-audits/
+
+# =====================================
+# Security & Sensitive Data
+# =====================================
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# API keys and tokens
+.env.secret
+api-keys.json
+tokens.txt
